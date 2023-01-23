@@ -13,10 +13,10 @@ router.get('/', async (req, res) => {
                     model: User,
                     attributes: ['username'],
                 },
-                {
-                    model: Time,
-                    attribute: ['local_time']
-                }
+                // {
+                //     model: Time,
+                //     attribute: ['local_time']
+                // }
 
             ],
         });
