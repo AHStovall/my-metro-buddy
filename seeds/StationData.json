@@ -1,0 +1,608 @@
+[
+	{
+		"metro_name": "Metro Center",
+		"line": "RD",
+		"street_address": "607 13th St. NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Farragut North",
+		"line": "RD",
+		"street_address": "1001 Connecticut Avenue NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Dupont Circle",
+		"line": "RD",
+		"street_address": "1525 20th St. NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Woodley Park-Zoo/Adams Morgan",
+		"line": "RD",
+		"street_address": "2700 Connecticut Ave., NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Cleveland Park",
+		"line": "RD",
+		"street_address": "3599 Connecticut Avenue NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Van Ness-UDC",
+		"line": "RD",
+		"street_address": "4200 Connecticut Avenue NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Tenleytown-AU",
+		"line": "RD",
+		"street_address": "4501 Wisconsin Avenue NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Friendship Heights",
+		"line": "RD",
+		"street_address": "5337 Wisconsin Avenue NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Bethesda",
+		"line": "RD",
+		"street_address": "7450 Wisconsin Avenue",
+		"city": "Bethesda"
+	},
+	{
+		"metro_name": "Medical Center",
+		"line": "RD",
+		"street_address": "8810 Rockville Pike",
+		"city": "Bethesda"
+	},
+	{
+		"metro_name": "Grosvenor-Strathmore",
+		"line": "RD",
+		"street_address": "10300 Rockville Pike",
+		"city": "Bethesda"
+	},
+	{
+		"metro_name": "North Bethesda",
+		"line": "RD",
+		"street_address": "5500 Marinelli Road",
+		"city": "Rockville"
+	},
+	{
+		"metro_name": "Twinbrook",
+		"line": "RD",
+		"street_address": "1600 Chapman Avenue",
+		"city": "Rockville"
+	},
+	{
+		"metro_name": "Rockville",
+		"line": "RD",
+		"street_address": "251 Hungerford Drive",
+		"city": "Rockville"
+	},
+	{
+		"metro_name": "Shady Grove",
+		"line": "RD",
+		"street_address": "15903 Somerville Drive",
+		"city": "Rockville"
+	},
+	{
+		"metro_name": "Gallery Pl-Chinatown",
+		"line": "RD",
+		"street_address": "630 H St. NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Judiciary Square",
+		"line": "RD",
+		"street_address": "450 F Street NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Union Station",
+		"line": "RD",
+		"street_address": "701 First St. NE",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Rhode Island Ave-Brentwood",
+		"line": "RD",
+		"street_address": "919 Rhode Island Avenue NE",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Brookland-CUA",
+		"line": "RD",
+		"street_address": "801 Michigan Avenue NE",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Fort Totten",
+		"line": "RD",
+		"street_address": "550 Galloway Street NE",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Takoma",
+		"line": "RD",
+		"street_address": "327 Cedar Street NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Silver Spring",
+		"line": "RD",
+		"street_address": "8400 Colesville Road",
+		"city": "Silver Spring"
+	},
+	{
+		"metro_name": "Forest Glen",
+		"line": "RD",
+		"street_address": "9730 Georgia Avenue",
+		"city": "Forest Glen"
+	},
+	{
+		"metro_name": "Wheaton",
+		"line": "RD",
+		"street_address": "11171 Georgia Avenue",
+		"city": "Silver Spring"
+	},
+	{
+		"metro_name": "Glenmont",
+		"line": "RD",
+		"street_address": "12501 Georgia Avenue",
+		"city": "Silver Spring"
+	},
+	{
+		"metro_name": "NoMa-Gallaudet U",
+		"line": "RD",
+		"street_address": "200 Florida Ave N.E.",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Metro Center",
+		"line": "BL",
+		"street_address": "607 13th St. NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "McPherson Square",
+		"line": "BL",
+		"street_address": "1400 I St. NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Farragut West",
+		"line": "BL",
+		"street_address": "900 18th St. NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Foggy Bottom-GWU",
+		"line": "BL",
+		"street_address": "2301 I St. NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Rosslyn",
+		"line": "BL",
+		"street_address": "1850 N. Moore Street",
+		"city": "Arlington"
+	},
+	{
+		"metro_name": "Arlington Cemetery",
+		"line": "BL",
+		"street_address": "1000 North Memorial Drive",
+		"city": "Arlington"
+	},
+	{
+		"metro_name": "Pentagon",
+		"line": "BL",
+		"street_address": "2 South Rotary Road",
+		"city": "Arlington"
+	},
+	{
+		"metro_name": "Pentagon City",
+		"line": "BL",
+		"street_address": "1250 South Hayes St.",
+		"city": "Arlington"
+	},
+	{
+		"metro_name": "Crystal City",
+		"line": "BL",
+		"street_address": "1750 S. Bell St.",
+		"city": "Arlington"
+	},
+	{
+		"metro_name": "Ronald Reagan Washington National Airport",
+		"line": "BL",
+		"street_address": "2400 S. Smith Blvd.",
+		"city": "Arlington"
+	},
+	{
+		"metro_name": "Braddock Road",
+		"line": "BL",
+		"street_address": "700 N. West St.",
+		"city": "Alexandria"
+	},
+	{
+		"metro_name": "King St-Old Town",
+		"line": "BL",
+		"street_address": "1900 King Street",
+		"city": "Alexandria"
+	},
+	{
+		"metro_name": "Eisenhower Avenue",
+		"line": "YL",
+		"street_address": "2400 Eisenhower Avenue",
+		"city": "Alexandria"
+	},
+	{
+		"metro_name": "Huntington",
+		"line": "YL",
+		"street_address": "2501 Huntington Ave",
+		"city": "Huntington"
+	},
+	{
+		"metro_name": "Federal Triangle",
+		"line": "BL",
+		"street_address": "302 12th St. NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Smithsonian",
+		"line": "BL",
+		"street_address": "1200 Independence Avenue SW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "L'Enfant Plaza",
+		"line": "BL",
+		"street_address": "600 Maryland Avenue SW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Federal Center SW",
+		"line": "BL",
+		"street_address": "401 3rd Street SW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Capitol South",
+		"line": "BL",
+		"street_address": "355 First Street SE",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Eastern Market",
+		"line": "BL",
+		"street_address": "701 Pennsylvania Avenue SE",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Potomac Ave",
+		"line": "BL",
+		"street_address": "700 14th Street SE",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Stadium-Armory",
+		"line": "BL",
+		"street_address": "192 19th St. SE",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Minnesota Ave",
+		"line": "OR",
+		"street_address": "4000 Minnesota Avenue NE",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Deanwood",
+		"line": "OR",
+		"street_address": "4720 Minnesota Avenue NE",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Cheverly",
+		"line": "OR",
+		"street_address": "5501 Columbia Park",
+		"city": "Cheverly"
+	},
+	{
+		"metro_name": "Landover",
+		"line": "OR",
+		"street_address": "3000 Pennsy Drive",
+		"city": "Hyattsville"
+	},
+	{
+		"metro_name": "New Carrollton",
+		"line": "OR",
+		"street_address": "4700 Garden City Drive",
+		"city": "New Carrollton"
+	},
+	{
+		"metro_name": "Mt Vernon Sq 7th St-Convention Center",
+		"line": "GR",
+		"street_address": "700 M St. NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Shaw-Howard U",
+		"line": "GR",
+		"street_address": "1701 8th St. NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "U Street/African-Amer Civil War Memorial/Cardozo",
+		"line": "GR",
+		"street_address": "1240 U Street NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Columbia Heights",
+		"line": "GR",
+		"street_address": "3030 14th St. NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Georgia Ave-Petworth",
+		"line": "GR",
+		"street_address": "3700 Georgia Avenue NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Fort Totten",
+		"line": "GR",
+		"street_address": "550 Galloway Street NE",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "West Hyattsville",
+		"line": "GR",
+		"street_address": "2700 Hamilton St.",
+		"city": "Hyattsville"
+	},
+	{
+		"metro_name": "Hyattsville Crossing",
+		"line": "GR",
+		"street_address": "3575 East West Highway",
+		"city": "Hyattsville"
+	},
+	{
+		"metro_name": "College Park-U of Md",
+		"line": "GR",
+		"street_address": "4931 Calvert Road",
+		"city": "College Park"
+	},
+	{
+		"metro_name": "Greenbelt",
+		"line": "GR",
+		"street_address": "5717 Greenbelt Metro Drive",
+		"city": "Greenbelt"
+	},
+	{
+		"metro_name": "Gallery Pl-Chinatown",
+		"line": "GR",
+		"street_address": "630 H St. NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Archives-Navy Memorial-Penn Quarter",
+		"line": "GR",
+		"street_address": "701 Pennsylvania Avenue NW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "L'Enfant Plaza",
+		"line": "GR",
+		"street_address": "600 Maryland Avenue SW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Waterfront",
+		"line": "GR",
+		"street_address": "399 M Street SW",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Navy Yard-Ballpark",
+		"line": "GR",
+		"street_address": "200 M Street SE",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Anacostia",
+		"line": "GR",
+		"street_address": "1101 Howard Road SE",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Congress Heights",
+		"line": "GR",
+		"street_address": "1290 Alabama Avenue SE",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Southern Avenue",
+		"line": "GR",
+		"street_address": "1911 Southern Avenue",
+		"city": "Temple Hills"
+	},
+	{
+		"metro_name": "Naylor Road",
+		"line": "GR",
+		"street_address": "3101 Branch Avenue",
+		"city": "Temple Hills"
+	},
+	{
+		"metro_name": "Suitland",
+		"line": "GR",
+		"street_address": "4500 Silver Hill Road",
+		"city": "Suitland"
+	},
+	{
+		"metro_name": "Branch Ave",
+		"line": "GR",
+		"street_address": "4704 Old Soper Road",
+		"city": "Suitland"
+	},
+	{
+		"metro_name": "Benning Road",
+		"line": "BL",
+		"street_address": "4500 Benning Road",
+		"city": "Washington"
+	},
+	{
+		"metro_name": "Capitol Heights",
+		"line": "BL",
+		"street_address": "133 Central Avenue",
+		"city": "Capitol Heights"
+	},
+	{
+		"metro_name": "Addison Road-Seat Pleasant",
+		"line": "BL",
+		"street_address": "100 Addison Road S.",
+		"city": "Capitol Heights"
+	},
+	{
+		"metro_name": "Morgan Boulevard",
+		"line": "BL",
+		"street_address": "300 Garrett Morgan Blvd.",
+		"city": "Landover"
+	},
+	{
+		"metro_name": "Downtown Largo",
+		"line": "BL",
+		"street_address": "Largo Town Center 9000 Lottsford Road",
+		"city": "Largo"
+	},
+	{
+		"metro_name": "Van Dorn Street",
+		"line": "BL",
+		"street_address": "5690 Eisenhower Avenue",
+		"city": "Alexandria"
+	},
+	{
+		"metro_name": "Franconia-Springfield",
+		"line": "BL",
+		"street_address": "6880 Frontier Drive",
+		"city": "Springfield"
+	},
+	{
+		"metro_name": "Court House",
+		"line": "OR",
+		"street_address": "2100 Wilson Blvd",
+		"city": "Arlington"
+	},
+	{
+		"metro_name": "Clarendon",
+		"line": "OR",
+		"street_address": "3100 Wilson Blvd",
+		"city": "Arlington"
+	},
+	{
+		"metro_name": "Virginia Square-GMU",
+		"line": "OR",
+		"street_address": "3600 Fairfax Drive",
+		"city": "Arlington"
+	},
+	{
+		"metro_name": "Ballston-MU",
+		"line": "OR",
+		"street_address": "4230 Fairfax Drive",
+		"city": "Arlington"
+	},
+	{
+		"metro_name": "East Falls Church",
+		"line": "OR",
+		"street_address": "2001 N. Sycamore St.",
+		"city": "Arlington"
+	},
+	{
+		"metro_name": "West Falls Church",
+		"line": "OR",
+		"street_address": "7040 Haycock Road",
+		"city": "Falls Church"
+	},
+	{
+		"metro_name": "Dunn Loring-Merrifield",
+		"line": "OR",
+		"street_address": "2700 Gallows Road",
+		"city": "Vienna"
+	},
+	{
+		"metro_name": "Vienna/Fairfax-GMU",
+		"line": "OR",
+		"street_address": "9550 Saintsbury Drive",
+		"city": "Fairfax"
+	},
+	{
+		"metro_name": "McLean",
+		"line": "SV",
+		"street_address": "1824 Dolley Madison Boulevard",
+		"city": "McLean"
+	},
+	{
+		"metro_name": "Tysons",
+		"line": "SV",
+		"street_address": "1943 Chain Bridge Road",
+		"city": "McLean"
+	},
+	{
+		"metro_name": "Greensboro",
+		"line": "SV",
+		"street_address": "8305 Leesburg Pike",
+		"city": "Vienna"
+	},
+	{
+		"metro_name": "Spring Hill",
+		"line": "SV",
+		"street_address": "1576 Spring Hill Road",
+		"city": "Vienna"
+	},
+	{
+		"metro_name": "Wiehle-Reston East",
+		"line": "SV",
+		"street_address": "1862 Wiehle Avenue",
+		"city": "Reston"
+	},
+	{
+		"metro_name": "Reston Town Center",
+		"line": "SV",
+		"street_address": "1998 Edmund Halley Drive",
+		"city": "Reston"
+	},
+	{
+		"metro_name": "Herndon",
+		"line": "SV",
+		"street_address": "585 Herndon Parkway",
+		"city": "Reston"
+	},
+	{
+		"metro_name": "Innovation Center",
+		"line": "SV",
+		"street_address": "13747 Sunrise Valley Drive",
+		"city": "Herndon"
+	},
+	{
+		"metro_name": "Washington Dulles International Airport",
+		"line": "SV",
+		"street_address": "44920 Saarinen Circle",
+		"city": "Dulles"
+	},
+	{
+		"metro_name": "Loudoun Gateway",
+		"line": "SV",
+		"street_address": "22505 Lockridge Road",
+		"city": "Sterling"
+	},
+	{
+		"metro_name": "Ashburn",
+		"line": "SV",
+		"street_address": "43655 Loudoun Station Drive",
+		"city": "Ashburn"
+	}
+]

@@ -28,4 +28,4 @@ User.belongsToMany(Metro, {
     as: 'metro_time'
   });
 
-module.exports = { User, Location, Trip, Time };
+module.exports = { Metro, User, Trip, Time };
