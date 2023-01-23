@@ -38,9 +38,6 @@ Metro.init(
         type: DataTypes.STRING,
         allowNull: false,
     },
-    time_id: {
-        // Import time
-    },
     user_id: {
     type: DataTypes.STRING,
     allowNull: false,
@@ -51,7 +48,7 @@ Metro.init(
     },
     time_id: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: true,
         references: {
             model: 'user',
             key: 'id',
