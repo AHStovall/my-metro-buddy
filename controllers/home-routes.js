@@ -8,26 +8,27 @@ router.get('/', async (req, res) => {
     try {
         // Get all projects and JOIN with user data
         const metroData = await Metro.findAll({
-            include: [
-                {
-                    model: User,
-                    attributes: ['username'],
-                    as: 'metro_user'
-                },
-                // {
-                //     model: Time,
-                //     attribute: ['local_time']
-                // }
+            // include: [
+            //     {
+            //         model: User,
+            //         attributes: ['username'],
+            //         as: 'metro_user'
+            //     },
 
-            ],
+            //     // {
+            //     //     model: Time,
+            //     //     attribute: ['local_time']
+            //     // }
+
+            // ],
         });
 
         // Serialize data so the template can read it
-        const metro = metroData.map((metro) => project.get({ plain: true }));
-
+        const trips = metroData.map((metro) => metro.get({ plain: true }));
+        console.log(trips)
         // Pass serialized data and session flag into template
         res.render('homepage', {
-            metro,
+            trips,
             logged_in: req.session.logged_in
         });
     } catch (err) {
