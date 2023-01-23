@@ -12,6 +12,7 @@ router.get('/', async (req, res) => {
                 {
                     model: User,
                     attributes: ['username'],
+                    as: 'metro_user'
                 },
                 // {
                 //     model: Time,
@@ -30,6 +31,7 @@ router.get('/', async (req, res) => {
             logged_in: req.session.logged_in
         });
     } catch (err) {
+        console.log(err)
         res.status(500).json(err);
     }
 });
@@ -42,10 +44,10 @@ router.get('/metro/:id', async (req, res) => {
                     model: User,
                     attributes: ['username'],
                 },
-                {
-                    model: Time,
-                    // attributes: ['stop_longitude', 'stop_latitude'],
-                }
+                // {
+                //     model: Time,
+                //     // attributes: ['stop_longitude', 'stop_latitude'],
+                // }
             ],
         });
 
@@ -56,6 +58,7 @@ router.get('/metro/:id', async (req, res) => {
             logged_in: req.session.logged_in
         });
     } catch (err) {
+        console.log(err)
         res.status(500).json(err);
     }
 });

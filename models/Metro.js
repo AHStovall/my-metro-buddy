@@ -14,33 +14,33 @@ Metro.init(
         },
         metro_name: {
             type: DataTypes.STRING,
-            allowNull: false,
+            allowNull: true,
             // Primary key?? Each stop is exclusive
         },
         line: {
             type: DataTypes.STRING,
-            allowNull: false,
+            allowNull: true,
         },
         departure_time: {
             type: DataTypes.INTEGER,
-            allowNull: false,
+            allowNull: true,
 
         },
         arrival_time: {
             type: DataTypes.INTEGER,
-            allowNull: false,
+            allowNull: true,
         },
         street_address: {
             type: DataTypes.STRING,
-            allowNull: false,
+            allowNull: true,
         },
         city: {
             type: DataTypes.STRING,
-            allowNull: false,
+            allowNull: true,
         },
         user_id: {
             type: DataTypes.INTEGER,
-            allowNull: false,
+            allowNull: true,
             references: {
                 model: 'user',
                 key: 'id',
@@ -50,7 +50,7 @@ Metro.init(
             type: DataTypes.INTEGER,
             allowNull: true,
             references: {
-                model: 'user',
+                model: 'time',
                 key: 'id',
             }
         },
