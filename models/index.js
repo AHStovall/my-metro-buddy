@@ -1,6 +1,7 @@
 const Metro = require('./Metro');
 const Time = require('./Time');
 const Trip = require('./Trip');
+
 const User = require('./User')
 
 User.belongsToMany(Metro, {
