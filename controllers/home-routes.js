@@ -37,6 +37,7 @@ router.get('/', async (req, res) => {
     }
 });
 
+//* get one metro route by primary key
 router.get('/metro/:id', async (req, res) => {
     try {
         const metroData = await Metro.findByPk(req.params.id, {
@@ -94,5 +95,11 @@ router.get('/login', (req, res) => {
 
     res.render('login');
 });
+
+//* signup route
+router.get('/signup', (req, res) => {
+    res.render('signup');
+})
+
 
 module.exports = router;
