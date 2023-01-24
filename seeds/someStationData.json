@@ -3,6 +3,7 @@
         "metro_name": "Metro Center",
         "line": "RD",
         "street_address": "607 13th St. NW",
-        "city": "Washington"
+        "city": "Washington",
+        "user_id": 1
     }
 ]

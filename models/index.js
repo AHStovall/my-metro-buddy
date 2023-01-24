@@ -9,6 +9,7 @@ User.belongsToMany(Metro, {
     model: Trip,
     unique: false
   },
+  foreignKey: 'user_id',
   as: 'planned_trips'
 });
 
@@ -17,6 +18,8 @@ Metro.belongsToMany(User, {
     model: Trip,
     unique: false
   },
+  foreignKey: 'metro_id',
+  as: 'metro_users'
   // Define an alias for when data is retrieved
   // as: 'metro_user'
 

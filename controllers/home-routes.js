@@ -1,13 +1,21 @@
 const router = require('express').Router();
 //* requireing Metro, City,and User models to display info within these models on home page
-const { Metro, City, User } = require('../models');
+const { Metro, City, User, Trip } = require('../models');
 const withAuth = require('../utils/auth');
 
 //* home page (displaying metro data)
 router.get('/', async (req, res) => {
     try {
         // Get all projects and JOIN with user data
+        //* trip is the through table containing user_id and metro_id
         const metroData = await Metro.findAll({
+            include: [
+                {
+                    model: User,
+                    through: Trip,
+                    as: 'metro_users',
+                }
+            ]
             // include: [
             //     {
             //         model: User,
@@ -24,6 +32,7 @@ router.get('/', async (req, res) => {
         });
 
         // Serialize data so the template can read it
+        //* this is where we name the array in the handlebars
         const trips = metroData.map((metro) => metro.get({ plain: true }));
         console.log(trips)
         // Pass serialized data and session flag into template
@@ -37,7 +46,6 @@ router.get('/', async (req, res) => {
     }
 });
 
-//* get one metro route by primary key
 router.get('/metro/:id', async (req, res) => {
     try {
         const metroData = await Metro.findByPk(req.params.id, {
@@ -95,11 +103,5 @@ router.get('/login', (req, res) => {
 
     res.render('login');
 });
-
-//* signup route
-router.get('/signup', (req, res) => {
-    res.render('signup');
-})
-
 
 module.exports = router;
