@@ -1,15 +1,7 @@
 const Metro = require('./Metro');
 const Time = require('./Time');
 const Trip = require('./Trip');
-const User = require('./User')
-
-User.belongsToMany(Metro, {
-    through: {
-      model: Trip,
-      unique: false
-    },
-    as: 'planned_trips'
-  });
+const User = require('./User');
   
   Metro.belongsToMany(User, {
     through: {
