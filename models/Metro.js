@@ -46,14 +46,14 @@ Metro.init(
                 key: 'id',
             }
         },
-        time_id: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-            references: {
-                model: 'time',
-                key: 'id',
-            }
-        },
+        // time_id: {
+        //     type: DataTypes.INTEGER,
+        //     allowNull: true,
+        //     references: {
+        //         model: 'time',
+        //         key: 'id',
+        //     }
+        // },
     },
     {
         sequelize,
