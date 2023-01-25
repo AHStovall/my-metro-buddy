@@ -1,6 +1,3 @@
-
-
-
 <!--dropdown menu containing stationData.js data
 <div class="dropdown-container">
  <select>
@@ -17,54 +14,58 @@
 </select>
 </div>
 <script src="../seeds/StationData.json"></script>-->
-
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet"/>
-<div class="dropdownMenus col-md-12">
-  <div class='form-field'>
-    <label for='metro-name'>Metro Name:</label>
-    <select id='metro-name' class='form-control'>
-      <option>Select Metro:</option>
-      {{#each trips as |trip|}}
-      <option value="{{metro_name}}">{{metro_name}}</option>
-      {{/each}}
-    </select>
-  </div>
-  
-  <div class='form-field'>
-    <label for='street-address'>Street Address:</label>
-    <select id='street-address' class='form-control'>
-      <option>Choose address:</option>
-      {{#each trips as |trip|}}
-      <option value="{{street_address}}">{{street_address}}</option>
-      {{/each}}
-    </select>
-  </div>
-    
-  <div class='form-field'>
-    <label for='city'>City:</label>
-    <select id='station' class='form-control'>
-      <option>Choose City:</option>
-      {{#each trips as |trip|}}
-      <option value="{{city}}">{{city}}</option>
-      {{/each}}
-    </select>
-  </div>
-
-
-  <div class='form-field'>
-    <label for='line'>Line</label>
-    <select id='line' class='form-control'>
-      <option>Select Line:</option>
-      {{#each trips as |trip| }}
-      <option value="{{line}}">{{line}}</option>
-      {{/each}}
-    </select>
-  </div>
-    
-</div>
-
+{{#each trips as |trip|}}
 {{#each metro_users as |user|}}
+<div class="text-center">Welcome: </div>
 {{username}}
 {{/each}}
 {{/each}}
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" />
+<div class="dropdownMenus col-md-12">
+    <div class='form-field'>
+        <label for='metro-name'>Metro Name:</label>
+        <select id='metro-name' class='form-control'>
+            <option>Select Metro:</option>
+            {{#each trips as |trip|}}
+            <option value="{{metro_name}}">{{metro_name}}</option>
+            {{/each}}
+        </select>
+    </div>
 
+    <div class='form-field'>
+        <label for='street-address'>Street Address:</label>
+        <select id='street-address' class='form-control'>
+            <option>Choose address:</option>
+            {{#each trips as |trip|}}
+            <option value="{{street_address}}">{{street_address}}</option>
+            {{/each}}
+        </select>
+    </div>
+
+    <div class='form-field'>
+        <label for='city'>City:</label>
+        <select id='station' class='form-control'>
+            <option>Choose City:</option>
+            {{#each trips as |trip|}}
+            <option value="{{city}}">{{city}}</option>
+            {{/each}}
+        </select>
+    </div>
+
+
+    <div class='form-field'>
+        <label for='line'>Line</label>
+        <select id='line' class='form-control'>
+            <option>Select Line:</option>
+            {{#each trips as |trip| }}
+            <option value="{{line}}">{{line}}</option>
+            {{/each}}
+        </select>
+    </div>
+
+</div>
+
+{{!-- {{#each metro_users as |user|}}
+{{username}}
+{{/each}}
+{{/each}} --}}
