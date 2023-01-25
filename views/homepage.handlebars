@@ -23,7 +23,7 @@
   <div class='form-field'>
     <label for='metro-name'>Metro Name:</label>
     <select id='metro-name' class='form-control'>
-      <option>Select Metro:</option>
+      <option>Select Metro</option>
       {{#each trips as |trip|}}
       <option value="{{metro_name}}">{{metro_name}}</option>
       {{/each}}
@@ -33,7 +33,7 @@
   <div class='form-field'>
     <label for='street-address'>Street Address:</label>
     <select id='street-address' class='form-control'>
-      <option>Choose address:</option>
+      <option>Choose address</option>
       {{#each trips as |trip|}}
       <option value="{{street_address}}">{{street_address}}</option>
       {{/each}}
@@ -43,7 +43,7 @@
   <div class='form-field'>
     <label for='city'>City:</label>
     <select id='station' class='form-control'>
-      <option>Choose City:</option>
+      <option>Choose City</option>
       {{#each trips as |trip|}}
       <option value="{{city}}">{{city}}</option>
       {{/each}}
@@ -52,9 +52,9 @@
 
 
   <div class='form-field'>
-    <label for='line'>Line</label>
+    <label for='line'>Line:</label>
     <select id='line' class='form-control'>
-      <option>Select Line:</option>
+      <option>Select Line</option>
       {{#each trips as |trip| }}
       <option value="{{line}}">{{line}}</option>
       {{/each}}
