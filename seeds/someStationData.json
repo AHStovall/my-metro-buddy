@@ -5,5 +5,187 @@
         "street_address": "607 13th St. NW",
         "city": "Washington",
         "user_id": 1
-    }
+    },
+    {
+		"metro_name": "Farragut North",
+		"line": "RD",
+		"street_address": "1001 Connecticut Avenue NW",
+		"city": "Washington",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Dupont Circle",
+		"line": "RD",
+		"street_address": "1525 20th St. NW",
+		"city": "Washington",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Woodley Park-Zoo/Adams Morgan",
+		"line": "RD",
+		"street_address": "2700 Connecticut Ave., NW",
+		"city": "Washington",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Cleveland Park",
+		"line": "RD",
+		"street_address": "3599 Connecticut Avenue NW",
+		"city": "Washington",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Van Ness-UDC",
+		"line": "RD",
+		"street_address": "4200 Connecticut Avenue NW",
+		"city": "Washington",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Tenleytown-AU",
+		"line": "RD",
+		"street_address": "4501 Wisconsin Avenue NW",
+		"city": "Washington",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Friendship Heights",
+		"line": "RD",
+		"street_address": "5337 Wisconsin Avenue NW",
+		"city": "Washington",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Bethesda",
+		"line": "RD",
+		"street_address": "7450 Wisconsin Avenue",
+		"city": "Bethesda",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Medical Center",
+		"line": "RD",
+		"street_address": "8810 Rockville Pike",
+		"city": "Bethesda",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Grosvenor-Strathmore",
+		"line": "RD",
+		"street_address": "10300 Rockville Pike",
+		"city": "Bethesda",
+        "user_id": 1
+	},
+	{
+		"metro_name": "North Bethesda",
+		"line": "RD",
+		"street_address": "5500 Marinelli Road",
+		"city": "Rockville",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Twinbrook",
+		"line": "RD",
+		"street_address": "1600 Chapman Avenue",
+		"city": "Rockville",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Rockville",
+		"line": "RD",
+		"street_address": "251 Hungerford Drive",
+		"city": "Rockville",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Shady Grove",
+		"line": "RD",
+		"street_address": "15903 Somerville Drive",
+		"city": "Rockville",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Gallery Pl-Chinatown",
+		"line": "RD",
+		"street_address": "630 H St. NW",
+		"city": "Washington",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Judiciary Square",
+		"line": "RD",
+		"street_address": "450 F Street NW",
+		"city": "Washington",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Union Station",
+		"line": "RD",
+		"street_address": "701 First St. NE",
+		"city": "Washington",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Rhode Island Ave-Brentwood",
+		"line": "RD",
+		"street_address": "919 Rhode Island Avenue NE",
+		"city": "Washington",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Brookland-CUA",
+		"line": "RD",
+		"street_address": "801 Michigan Avenue NE",
+		"city": "Washington",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Fort Totten",
+		"line": "RD",
+		"street_address": "550 Galloway Street NE",
+		"city": "Washington",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Takoma",
+		"line": "RD",
+		"street_address": "327 Cedar Street NW",
+		"city": "Washington",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Silver Spring",
+		"line": "RD",
+		"street_address": "8400 Colesville Road",
+		"city": "Silver Spring",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Forest Glen",
+		"line": "RD",
+		"street_address": "9730 Georgia Avenue",
+		"city": "Forest Glen",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Wheaton",
+		"line": "RD",
+		"street_address": "11171 Georgia Avenue",
+		"city": "Silver Spring",
+        "user_id": 1
+	},
+	{
+		"metro_name": "Glenmont",
+		"line": "RD",
+		"street_address": "12501 Georgia Avenue",
+		"city": "Silver Spring",
+        "user_id": 1
+	},
+	{
+		"metro_name": "NoMa-Gallaudet U",
+		"line": "RD",
+		"street_address": "200 Florida Ave N.E.",
+		"city": "Washington",
+        "user_id": 1
+	}
 ]
