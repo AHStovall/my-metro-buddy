@@ -3,6 +3,11 @@
 /* Correct the line height in all browsers.
   Prevent adjustments of font size after orientation changes in iOS.
  */
+
+* {
+  font-family: 'Fira Sans', sans-serif;
+}
+
  html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
@@ -26,6 +31,14 @@ h1 {
  margin: 0.67em 0;
 }
 
+/* h3 {
+  font-size: 7em;
+} */
+
+.color-set {
+  background-color: #a5a5a5;
+}
+
 /* Add the correct font weight in Chrome, Edge, and Safari.
    */
   b,
@@ -47,4 +60,15 @@ h1 {
    */
    summary {
     display: list-item;
+  }
+
+  .nav-color {
+    background-color: #a5a5a5;
+  }
+
+  .green-card {
+    background-color: #08a84e;
+    padding: 25px;
+    border-radius: 25px;
+    stroke: 40px;
   }
