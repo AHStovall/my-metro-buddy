@@ -22,6 +22,7 @@
 {{/each}}
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" />
 <div class="dropdownMenus col-md-12">
+
     <div class='form-field'>
         <label for='metro-name'>Metro Name:</label>
         <select id='metro-name' class='form-control'>
@@ -31,6 +32,7 @@
             {{/each}}
         </select>
     </div>
+
 
     <div class='form-field'>
         <label for='street-address'>Street Address:</label>
@@ -63,9 +65,14 @@
         </select>
     </div>
 
+  <div class='form-field'>
+    <label for='line'>Line:</label>
+    <select id='line' class='form-control'>
+      <option>Select Line</option>
+      {{#each trips as |trip| }}
+      <option value="{{line}}">{{line}}</option>
+      {{/each}}
+    </select>
+  </div>
+    
 </div>
-
-{{!-- {{#each metro_users as |user|}}
-{{username}}
-{{/each}}
-{{/each}} --}}
