@@ -25,12 +25,12 @@ Metro.belongsToMany(User, {
 
 });
 
-Time.belongsToMany(User, {
-  through: {
-    model: Trip,
-    unique: false
-  },
-  // as: 'metro_time'
-});
+// Time.belongsToMany(User, {
+//   through: {
+//     model: Trip,
+//     unique: false
+//   },
+//   // as: 'metro_time'
+// });
 
-module.exports = { Metro, User, Trip, Time };
+module.exports = { Metro, User, Trip };
