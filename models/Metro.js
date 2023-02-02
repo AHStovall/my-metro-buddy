@@ -15,6 +15,7 @@ Metro.init(
         metro_name: {
             type: DataTypes.STRING,
             allowNull: true,
+            allowNull: false,
             // Primary key?? Each stop is exclusive
         },
         line: {
@@ -24,6 +25,11 @@ Metro.init(
         departure_time: {
             type: DataTypes.INTEGER,
             allowNull: true,
+            allowNull: false,
+        },
+        departure_time: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
 
         },
         arrival_time: {

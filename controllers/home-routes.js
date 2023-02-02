@@ -1,6 +1,7 @@
 const router = require('express').Router();
 //* requireing Metro, City,and User models to display info within these models on home page
 const { Metro, City, User, Trip } = require('../models');
+const { Metro, Trip, User } = require('../models');
 const withAuth = require('../utils/auth');
 
 //* home page (displaying metro data)
@@ -12,29 +13,25 @@ router.get('/', async (req, res) => {
             include: [
                 {
                     model: User,
-                    through: Trip,
-                    as: 'metro_users',
-                }
+                    attributes: ['username'],
+                },
+                // {
+                //     model: Time,
+                //     attribute: ['local_time']
+                // }
+
+                //     // {
+                //     //     model: Time,
+                //     //     attribute: ['local_time']
+                //     // }
             ]
-            // include: [
-            //     {
-            //         model: User,
-            //         attributes: ['username'],
-            //         as: 'metro_user'
-            //     },
-
-            //     // {
-            //     //     model: Time,
-            //     //     attribute: ['local_time']
-            //     // }
-
             // ],
         });
 
         // Serialize data so the template can read it
-        //* this is where we name the array in the handlebars
-        const trips = metroData.map((metro) => metro.get({ plain: true }));
-        console.log(trips)
+        const metro = metroData.map((metro) => project.get({ plain: true }));
+        console.log(metro)
+
         // Pass serialized data and session flag into template
         res.render('homepage', {
             trips,
