@@ -24,7 +24,7 @@
   6. Spin up a localhost server of the program by running "npm start".
 
   ## Site
-  [Working Site](https://github.com/kaylacasale)
+  [Working Site](https://metro-buddy.herokuapp.com/)
 
   ![My Metro Buddy Homepage](./public/assets/screenshot.PNG)
 
